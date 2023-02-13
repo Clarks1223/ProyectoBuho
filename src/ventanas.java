@@ -1,2 +1,4 @@
-public class ventanas {
+public abstract class ventanas{
+    public abstract void abrirVentana();
+    public abstract void cerrarVentana();
 }
