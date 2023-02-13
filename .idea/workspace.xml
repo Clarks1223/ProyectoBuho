@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="creacion una clase abstracta llamada ventanas y creacion del frame login">
-      <change beforePath="$PROJECT_DIR$/src/ventanas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ventanas.java" afterDir="false" />
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="metodos de la clase abstracta definidos">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676301404837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="metodos de la clase abstracta definidos">
+      <created>1676301581802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676301581802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +93,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit1" />
     <MESSAGE value="creacion una clase abstracta llamada ventanas y creacion del frame login" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion una clase abstracta llamada ventanas y creacion del frame login" />
+    <MESSAGE value="metodos de la clase abstracta definidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodos de la clase abstracta definidos" />
   </component>
 </project>
