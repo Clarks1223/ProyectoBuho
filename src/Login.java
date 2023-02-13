@@ -19,10 +19,10 @@ public class Login extends ventanas{
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
-        frame.setVisible(true);
+        frame.setVisible(true); //Visualizar ventana
     }
     @Override
     public void cerrarVentana(){
-
+        frame.setVisible(false); //Cerrar ventana
     }
 }
