@@ -4,10 +4,10 @@ public class Login extends ventanas{
     private JPanel FLogin;
     private JLabel LNomEmpresa;
     private JLabel LBienvenido;
-    private JTextField textField1;
+    private JTextField ingreseSuUsuarioTextField;
     private JLabel JLRoldeUsuario;
     private JLabel JLingreseUsuario;
-    private JPasswordField passwordField1;
+    private JPasswordField contraseniaPasswordField;
     private JLabel JLingreseContrasenia;
     private JComboBox CBRoldeUsuario;
     private JLabel JLImagenBuho;
