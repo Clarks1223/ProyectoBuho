@@ -11,6 +11,7 @@ public class Login extends ventanas{
     private JLabel JLingreseContrasenia;
     private JComboBox CBRoldeUsuario;
     private JLabel JLImagenBuho;
+    private JButton JBiniciarsecion;
     static JFrame frame=new JFrame("Login");
     @Override
     public void abrirVentana(){

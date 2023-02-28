@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class AdminNewProducto extends ventanas{
     private JPanel JPadmpag2;
@@ -13,7 +15,27 @@ public class AdminNewProducto extends ventanas{
     private JTextField textField3;
     private JLabel JLtitulo;
     //objetos globales
-    JFrame addproducto =  new JFrame("Nuevo Producto");
+    static JFrame addproducto =  new JFrame("Nuevo Producto");
+
+    public AdminNewProducto() {
+        JBcerrarsesion.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Login venLogin = new Login();
+                venLogin.abrirVentana();
+                cerrarVentana();
+            }
+        });
+        JBregresaradm.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AdminPag1 back = new AdminPag1();
+                back.abrirVentana();
+                cerrarVentana();
+            }
+        });
+    }
+
     @Override
     public void abrirVentana(){
         addproducto.setContentPane(new AdminNewProducto().JPadmpag2);

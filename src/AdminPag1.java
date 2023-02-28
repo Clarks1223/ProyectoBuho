@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class AdminPag1 extends ventanas{
     private JPanel JPadmpg1;
@@ -17,7 +19,34 @@ public class AdminPag1 extends ventanas{
     private JLabel JLfunciones;
     private JLabel JLbienvenido;
     //objetos globales
-    JFrame adminpage =  new JFrame("Administrador");
+    static JFrame adminpage =  new JFrame("Administrador");
+    public AdminPag1() {
+        JBbacklogin.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Login ventLogin = new Login();
+                ventLogin.abrirVentana();
+                adminpage.setVisible(false);
+            }
+        });
+        JBagregarproducto.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AdminNewProducto opc1= new AdminNewProducto();
+                opc1.abrirVentana();
+                cerrarVentana();
+            }
+        });
+        JBagregarempleado.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AdminNewCajero opc3 = new AdminNewCajero();
+                opc3.abrirVentana();
+                cerrarVentana();
+            }
+        });
+    }
+
     @Override
     public void abrirVentana(){
         adminpage.setContentPane(new AdminPag1().JPadmpg1);

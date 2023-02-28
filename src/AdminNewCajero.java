@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class AdminNewCajero extends ventanas{
     private JPanel JPadmpag4;
@@ -13,7 +15,27 @@ public class AdminNewCajero extends ventanas{
     private JTextField textField3;
     private JLabel JLtitulo;
     //Variables globales
-    JFrame addcajero =  new JFrame("Nuevo Empleado");
+    static JFrame addcajero =  new JFrame("Nuevo Empleado");
+
+    public AdminNewCajero() {
+        JBcerrarsesion.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Login venLogin = new Login();
+                venLogin.abrirVentana();
+                cerrarVentana();
+            }
+        });
+        JBatras.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AdminPag1 back = new AdminPag1();
+                back.abrirVentana();
+                cerrarVentana();
+            }
+        });
+    }
+
     @Override
     public void abrirVentana(){
         addcajero.setContentPane(new AdminNewCajero().JPadmpag4);

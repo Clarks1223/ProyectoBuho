@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Clase para la coneccion Done!!">
-      <change afterPath="$PROJECT_DIR$/src/AdminNewCajero.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdminNewCajero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdminNewProducto.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdminNewProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdminPag1.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdminPag1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imagenes/IconoEmpresa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminPag1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminPag1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
