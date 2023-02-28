@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="metodos de la clase abstracta definidos">
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Clase para la coneccion Done!!">
+      <change afterPath="$PROJECT_DIR$/src/AdminNewCajero.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminNewCajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminNewProducto.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminNewProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminPag1.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminPag1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imagenes/IconoEmpresa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,13 +34,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LgmVgvbNxrCV8HJoVz7gh85rBI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676301128383</updated>
-      <workItem from="1677544654428" duration="1950000" />
+      <workItem from="1677544654428" duration="7679000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676301167434</created>
@@ -84,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676301581802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Clase para la coneccion Done!!">
+      <created>1677551243072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677551243072</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,10 +120,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit1" />
     <MESSAGE value="creacion una clase abstracta llamada ventanas y creacion del frame login" />
     <MESSAGE value="metodos de la clase abstracta definidos" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodos de la clase abstracta definidos" />
+    <MESSAGE value="Clase para la coneccion Done!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase para la coneccion Done!!" />
   </component>
 </project>
