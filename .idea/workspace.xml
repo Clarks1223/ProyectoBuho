@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Clase para la coneccion Done!!">
+      <change afterPath="$PROJECT_DIR$/src/Cajero.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Venta.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminNewProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewProducto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdminPag1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminPag1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +46,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "358",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/INTEL/IdeaProjects/CrreccionPruebaSegundoB",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
