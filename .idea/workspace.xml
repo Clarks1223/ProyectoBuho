@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Clase para la coneccion Done!!">
-      <change afterPath="$PROJECT_DIR$/src/Cajero.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cajero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Venta.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Venta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Creacion de pantalla cajero y ventas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminPag1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminPag1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +41,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "358",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "215",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/INTEL/IdeaProjects/CrreccionPruebaSegundoB",
     "node.js.detected.package.eslint": "true",
@@ -104,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677551243072</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creacion de pantalla cajero y ventas">
+      <created>1677630044302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677630044302</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +131,7 @@
     <MESSAGE value="creacion una clase abstracta llamada ventanas y creacion del frame login" />
     <MESSAGE value="metodos de la clase abstracta definidos" />
     <MESSAGE value="Clase para la coneccion Done!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase para la coneccion Done!!" />
+    <MESSAGE value="Creacion de pantalla cajero y ventas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de pantalla cajero y ventas" />
   </component>
 </project>
