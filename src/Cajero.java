@@ -23,6 +23,7 @@ public class Cajero extends ventanas{
     static JFrame addcajero =  new JFrame("Cajero");
 
     public Cajero() {
+        /*
         Connection cn;
         ConxBD con = new ConxBD();
         try {
@@ -36,6 +37,8 @@ public class Cajero extends ventanas{
         } catch (HeadlessException | SQLException f) {
             System.err.println(f);
         }
+        */
+
         buttonRegistrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -56,7 +59,8 @@ public class Cajero extends ventanas{
         buttonRegistrar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Connection cn;
+                /*
+                /Connection cn;
                 ConxBD con = new ConxBD();
                 try {
                     cn = con.estbConexion();
@@ -73,11 +77,13 @@ public class Cajero extends ventanas{
                 } catch (Exception ex) {
                     throw new RuntimeException(ex);
                 }
+                */
             }
         });
         comboBox1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                /*
                 Connection cx;
                 ConxBD con = new ConxBD();
                 try{
@@ -94,7 +100,8 @@ public class Cajero extends ventanas{
                     cx.close();
                 } catch (Exception ex) {
                     throw new RuntimeException(ex);
-                }
+                }*/
+
             }
         });
     }

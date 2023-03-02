@@ -1,21 +1,45 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Venta extends ventanas {
     private JPanel panel1;
-    private JButton CERRARButton;
+    private JTable table1;
     private JButton ATRASButton;
-    static JFrame adminpage =  new JFrame("Administrador");
+    private JButton CERRARButton;
+    private JButton button3;
+    static JFrame addproduct =  new JFrame("Venta");
+
+    public Venta() {
+        ATRASButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Cajero RegistroP = new Cajero();
+                RegistroP.abrirVentana();
+                addproduct.setVisible(false);
+            }
+        });
+        CERRARButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Login loginCaj = new Login();
+                loginCaj.abrirVentana();
+                addproduct.setVisible(false);
+            }
+        });
+    }
+
     @Override
     public void abrirVentana(){
-        adminpage.setContentPane(new Venta().panel1);
-        adminpage.setDefaultCloseOperation(adminpage.EXIT_ON_CLOSE);
-        adminpage.pack();
-        adminpage.setLocationRelativeTo(null);
-        adminpage.setResizable(false);
-        adminpage.setVisible(true);
+        addproduct.setContentPane(new Venta().panel1);
+        addproduct.setDefaultCloseOperation(addproduct.EXIT_ON_CLOSE);
+        addproduct.pack();
+        addproduct.setLocationRelativeTo(null);
+        addproduct.setResizable(false);
+        addproduct.setVisible(true);
     }
     @Override
     public void cerrarVentana(){
-        adminpage.setVisible(false);
+        addproduct.setVisible(false);
     }
 }

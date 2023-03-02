@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Creacion de pantalla cajero y ventas">
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Anadir funcionalidades a la pantalla cajero.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Venta.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venta.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "false",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
@@ -107,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677630044302</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Anadir funcionalidades a la pantalla cajero.">
+      <created>1677781870924</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677781870924</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,7 @@
     <MESSAGE value="metodos de la clase abstracta definidos" />
     <MESSAGE value="Clase para la coneccion Done!!" />
     <MESSAGE value="Creacion de pantalla cajero y ventas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de pantalla cajero y ventas" />
+    <MESSAGE value="Anadir funcionalidades a la pantalla cajero." />
+    <option name="LAST_COMMIT_MESSAGE" value="Anadir funcionalidades a la pantalla cajero." />
   </component>
 </project>
