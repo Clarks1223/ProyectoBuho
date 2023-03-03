@@ -4,19 +4,19 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class Venta extends ventanas {
     private JPanel panel1;
     private JTable table1;
     private JButton ATRASButton;
     private JButton CERRARButton;
-    private JButton button3;
+    private JButton ELIMINARButton;
+    private JButton REGISTRARButton;
+    private JTextField TFgetCodElim;
+    private JLabel JLCodigoElim;
     static JFrame addproduct =  new JFrame("Venta");
-    String nombreTabla;
+    PreparedStatement pd;
 
     public Venta() {
         ATRASButton.addActionListener(new ActionListener() {
@@ -40,27 +40,24 @@ public class Venta extends ventanas {
             public void componentResized(ComponentEvent e) {
                 super.componentResized(e);
                 /*
-                String qr  = "select * from " + nombreTabla;
-                Statement st;
+                Connection cn;
                 ConxBD con = new ConxBD();
-                Connection conexion = con.estbConexion();
+                cn = con.estbConexion();
+                String qr  = "select * from productos";
+                Statement st;
                 DefaultTableModel model = new DefaultTableModel();
-                model.addColumn("product1");
-                model.addColumn("product2");
-                model.addColumn("product3");
-                model.addColumn("product4");
-                model.addColumn("product5");
+                model.addColumn("codigo");
+                model.addColumn("nombre");
+                model.addColumn("precio");
                 table1.setModel(model);
                 String [] datos = new String[5];
                 try {
-                    st = conexion.createStatement();
-                    ResultSet re = st.executeQuery(qr);
-                    while(re.next()){
-                        datos[0] = re.getString(1);
-                        datos[1] = re.getString(2);
-                        datos[2] = re.getString(3);
-                        datos[3] = re.getString(4);
-                        datos[4] = re.getString(5);
+                    st = cn.createStatement();
+                    ResultSet rs =  st.executeQuery(qr);
+                    while(rs.next()){
+                        datos[0] = rs.getString(1);
+                        datos[1] = rs.getString(2);
+                        datos[2] = rs.getString(3);
                         model.addRow(datos);
                     }
                 } catch (SQLException ex) {
@@ -69,6 +66,29 @@ public class Venta extends ventanas {
 
                 */
 
+            }
+        });
+        ELIMINARButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                /*
+                Connection cn;
+                ConxBD con = new ConxBD();
+                try {
+                    cn = con.estbConexion();
+                    pd = cn.prepareStatement("DELETE FROM datosVehiculo WHERE matricula="+ TFgetCodElim);
+                    pd.executeUpdate();
+                    int res = pd.executeUpdate();
+                    if (res > 0) {
+                        JOptionPane.showMessageDialog(null,"Error");
+                    } else {
+                        JOptionPane.showMessageDialog(null,"Coche eliminado con exito");
+                    }
+                    cn.close();
+                } catch (Exception ex) {
+                    throw new RuntimeException(ex);
+                }
+                */
             }
         });
     }

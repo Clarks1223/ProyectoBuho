@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
@@ -15,9 +14,9 @@ public class Cajero extends ventanas{
     private JLabel JLgetNombre;
     private JLabel JLgetID;
     private JLabel JLdescripcionProd;
-    private JLabel JTsetDescripoPro;
-    private JLabel JTsetPrecio;
-    private JLabel JTsetUnidad;
+    private JLabel JTGetDescripoPro;
+    private JLabel JTgetPrecio;
+    private JLabel JTgetUnidad;
     PreparedStatement pd;
 
     static JFrame addcajero =  new JFrame("Cajero");
@@ -60,12 +59,15 @@ public class Cajero extends ventanas{
             @Override
             public void actionPerformed(ActionEvent e) {
                 /*
-                /Connection cn;
+                Connection cn;
                 ConxBD con = new ConxBD();
                 try {
                     cn = con.estbConexion();
-                    pd = cn.prepareStatement("Insert into datosVehiculo VALUES (?,?,?,?,?,?)");
-                    pd.setString(1, TFsetUnidades.getText());
+                    pd = cn.prepareStatement("Insert into datosVehiculo VALUES (?,?,?,?)");
+                    pd.setString(1, comboBox1.getSelectedItem().toString());
+                    pd.setString(2, JTGetDescripoPro.getText());
+                    pd.setString(3, JTgetPrecio.getText());
+                    pd.setString(4, TFsetUnidades.getText());
                     System.out.println(pd);
                     int res = pd.executeUpdate();
                     if (res > 0) {
@@ -88,20 +90,20 @@ public class Cajero extends ventanas{
                 ConxBD con = new ConxBD();
                 try{
                     cx = con.estbConexion();
-                    String qr = "select * from datosVehiculo  where matricula = "+ comboBox1.getAction()+";";
+                    String qr = "select * from productos  where codigo = "+ comboBox1.getSelectedItem()+";";
                     Statement s = cx.createStatement();
                     ResultSet rs = s.executeQuery(qr);
                     System.out.println(rs);
                     while(rs.next()) {
                         JLdescripcionProd.setText(rs.getString(2));
-                        JTsetPrecio.setText(rs.getString(3));
-                        JTsetUnidad.setText(rs.getString(4));
+                        JTgetPrecio.setText(rs.getString(3));
+                        JTgetUnidad.setText(rs.getString(4));
                     }
                     cx.close();
                 } catch (Exception ex) {
                     throw new RuntimeException(ex);
-                }*/
-
+                }
+                */
             }
         });
     }

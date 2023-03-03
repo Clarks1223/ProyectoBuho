@@ -70,7 +70,7 @@
           <model/>
         </properties>
       </component>
-      <component id="32446" class="javax.swing.JLabel" binding="JTsetDescripoPro">
+      <component id="32446" class="javax.swing.JLabel" binding="JTGetDescripoPro">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -94,7 +94,7 @@
           <text value="Unidades disponibles:"/>
         </properties>
       </component>
-      <component id="c4291" class="javax.swing.JLabel" binding="JTsetPrecio">
+      <component id="c4291" class="javax.swing.JLabel" binding="JTgetPrecio">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -102,7 +102,7 @@
           <text value="......"/>
         </properties>
       </component>
-      <component id="75488" class="javax.swing.JLabel" binding="JTsetUnidad">
+      <component id="75488" class="javax.swing.JLabel" binding="JTgetUnidad">
         <constraints>
           <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
