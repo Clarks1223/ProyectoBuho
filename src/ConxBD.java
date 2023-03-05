@@ -4,7 +4,7 @@ public class ConxBD {
         Connection con = null;
         /*Datos para la coneccion*/
         String base="";
-        String url= "jdbc:myql://localhost:3306"+base;
+        String url= "jdbc:mysql://localhost:3306/"+base;
         String user="root";
         String password="";
         try{
