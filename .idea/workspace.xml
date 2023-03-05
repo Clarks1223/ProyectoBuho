@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Anadir acción a la tabla de la pantalla venta">
+      <change afterPath="$PROJECT_DIR$/src/AdminNewVistaVentas.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdminNewVistaVentas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cajero.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Venta.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venta.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewProducto.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewProducto.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminPag1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminPag1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +52,9 @@
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE": "right",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "215",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "296",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/INTEL/IdeaProjects/ProyectoBuho",
+    "last_opened_file_path": "D:/GitProyects/REPCRUDTABLA",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +62,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProyectoBuho" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

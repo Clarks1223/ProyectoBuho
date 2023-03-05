@@ -3,7 +3,9 @@ public class Main {
         //Abrir la ventana del programa
         //Login ventana1= new Login();
         //ventana1.abrirVentana();
-        AdminPag1 vent = new AdminPag1();
-        vent.abrirVentana();
+        //AdminPag1 vent = new AdminPag1();
+        //vent.abrirVentana();
+        AdminNewVistaVentas vent1 =  new AdminNewVistaVentas();
+        vent1.abrirVentana();
     }
 }

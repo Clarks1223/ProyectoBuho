@@ -10,10 +10,15 @@ public class AdminNewProducto extends ventanas{
     private JLabel JLnewproducto;
     private JButton JBborracampos;
     private JButton JBguardar;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
+    private JTextField JTFcodigo;
+    private JTextField JTFnombre;
+    private JTextField JTFstock;
     private JLabel JLtitulo;
+    private JLabel JLcodigo;
+    private JLabel JLnombre;
+    private JLabel JLstock;
+    private JLabel JLprecio;
+    private JTextField JFTprecio;
     //objetos globales
     static JFrame addproducto =  new JFrame("Nuevo Producto");
 

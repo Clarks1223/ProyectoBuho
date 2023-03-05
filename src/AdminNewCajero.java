@@ -10,10 +10,15 @@ public class AdminNewCajero extends ventanas{
     private JLabel JLiconoempresa;
     private JButton JBborracampos;
     private JButton JBagregarempleado;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
+    private JTextField JTFcedula;
+    private JTextField JTFnombre;
+    private JTextField JTFdireccion;
     private JLabel JLtitulo;
+    private JLabel JLTCedula;
+    private JLabel JLNombre;
+    private JLabel JLdireccion;
+    private JLabel JLcelular;
+    private JTextField JTFcelular;
     //Variables globales
     static JFrame addcajero =  new JFrame("Nuevo Empleado");
 

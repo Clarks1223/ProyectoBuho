@@ -46,6 +46,14 @@ public class AdminPag1 extends ventanas{
                 cerrarVentana();
             }
         });
+        JBverventas.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                AdminNewVistaVentas ventabusquedas = new AdminNewVistaVentas();
+                ventabusquedas.abrirVentana();
+                cerrarVentana();
+            }
+        });
     }
 
     @Override
