@@ -2,17 +2,17 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+import java.sql.*;
 public class AdminPag1 extends ventanas{
     private JPanel JPadmpg1;
     private JButton JBagregarproducto;
     private JButton JBverventas;
     private JButton JBagregarempleado;
     private JLabel JLnombre;
-    private JLabel JLapellido;
+    private JLabel JLcedula;
     private JLabel JLcargo;
     private JLabel JLsetnombre;
-    private JLabel JLsetapellido;
+    private JLabel JLsetcedula;
     private JLabel JLsetcargo;
     private JButton JBbacklogin;
     private JLabel JLseticonoempresa;
@@ -20,8 +20,23 @@ public class AdminPag1 extends ventanas{
     private JLabel JLfunciones;
     private JLabel JLbienvenido;
     //objetos globales
+    ConxBD conectarBase = new ConxBD();
+    Connection con;
     static JFrame adminpage =  new JFrame("Administrador");
     public AdminPag1() {
+        try {
+            con = conectarBase.estbConexion();
+            Statement qr = con.createStatement();
+            ResultSet resultqr = qr.executeQuery("Select * from datos_administrador;");
+            while(resultqr.next()) {
+                JLsetnombre.setText(resultqr.getString(2));
+                JLsetcedula.setText(resultqr.getString(1));
+                JLsetcargo.setText("Administrador");
+            }
+            con.close();
+        } catch (HeadlessException | SQLException f) {
+            System.err.println(f);
+        }
         JBbacklogin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
