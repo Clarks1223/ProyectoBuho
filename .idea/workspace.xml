@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Cajero Done!">
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Cajeros y productos conectados con la base de datos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewVistaVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewVistaVentas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678048995765</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cajeros y productos conectados con la base de datos">
+      <created>1678049934969</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678049934969</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="Cargando Login" />
     <MESSAGE value="Coneccion Done!" />
     <MESSAGE value="Cajero Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cajero Done!" />
+    <MESSAGE value="Cajeros y productos conectados con la base de datos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cajeros y productos conectados con la base de datos" />
   </component>
 </project>
