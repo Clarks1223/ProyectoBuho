@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Pantalla de busqueda de administrador done!!!">
-      <change beforePath="$PROJECT_DIR$/src/AdminNewProducto.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewProducto.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cajero.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConxBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConxBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Venta.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venta.form" afterDir="false" />
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Conexion reparada">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,11 +51,14 @@
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE&quot;: &quot;left&quot;,
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;296&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitProyects/REPCRUDTABLA&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Drivers/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -71,7 +73,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1676301128383</updated>
       <workItem from="1677544654428" duration="7679000" />
+      <workItem from="1678032180968" duration="6723000" />
+      <workItem from="1678041270376" duration="524000" />
+      <workItem from="1678045609123" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676301167434</created>
@@ -155,7 +159,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677993525781</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Correccion de diseño">
+      <created>1677995557945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677995557945</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cargando Login">
+      <created>1677998278831</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677998278831</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Coneccion Done!">
+      <created>1678034147714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678034147714</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +191,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Pablo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -184,6 +221,9 @@
     <MESSAGE value="Anadir funcionalidad a botones de la pantalla Venta" />
     <MESSAGE value="Anadir acción a la tabla de la pantalla venta" />
     <MESSAGE value="Pantalla de busqueda de administrador done!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pantalla de busqueda de administrador done!!!" />
+    <MESSAGE value="Correccion de diseño" />
+    <MESSAGE value="Cargando Login" />
+    <MESSAGE value="Coneccion Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coneccion Done!" />
   </component>
 </project>
