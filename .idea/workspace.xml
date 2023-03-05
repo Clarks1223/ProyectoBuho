@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Login Done!!!">
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Cajero Done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminNewProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminNewCajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewCajero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678034147714</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Cajero Done!">
+      <created>1678048995765</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678048995765</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +235,7 @@
     <MESSAGE value="Correccion de diseño" />
     <MESSAGE value="Cargando Login" />
     <MESSAGE value="Coneccion Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coneccion Done!" />
+    <MESSAGE value="Cajero Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cajero Done!" />
   </component>
 </project>
