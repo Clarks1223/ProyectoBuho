@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Pantalla de busqueda de administrador done!!!">
+    <list default="true" id="94e4888c-1dc4-4f86-b3ce-cc6a22ba34f0" name="Changes" comment="Coneccion Done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdminNewProducto.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminNewProducto.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cajero.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cajero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoBuho.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoBuho.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConxBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConxBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Venta.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Venta.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,11 +54,14 @@
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE": "left",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "296",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/GitProyects/REPCRUDTABLA",
+    "last_opened_file_path": "D:/Drivers/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676301128383</updated>
       <workItem from="1677544654428" duration="7679000" />
+      <workItem from="1678032180968" duration="6723000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676301167434</created>
@@ -155,7 +160,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677993525781</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Correccion de diseño">
+      <created>1677995557945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677995557945</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cargando Login">
+      <created>1677998278831</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677998278831</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Coneccion Done!">
+      <created>1678034147714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678034147714</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +192,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Pablo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -184,6 +222,9 @@
     <MESSAGE value="Anadir funcionalidad a botones de la pantalla Venta" />
     <MESSAGE value="Anadir acción a la tabla de la pantalla venta" />
     <MESSAGE value="Pantalla de busqueda de administrador done!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pantalla de busqueda de administrador done!!!" />
+    <MESSAGE value="Correccion de diseño" />
+    <MESSAGE value="Cargando Login" />
+    <MESSAGE value="Coneccion Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coneccion Done!" />
   </component>
 </project>
