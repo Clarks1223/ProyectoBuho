@@ -17,6 +17,7 @@ public class Cajero extends ventanas{
     private JLabel JTGetDescripoPro;
     private JLabel JTgetPrecio;
     private JLabel JTgetUnidad;
+    private JLabel JLtitulo2;
     PreparedStatement pd;
 
     static JFrame addcajero =  new JFrame("Cajero");
