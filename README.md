@@ -30,3 +30,6 @@ Pantalla cajero:
 Ventana detalle de factura:
 
 ![image](https://user-images.githubusercontent.com/117753868/223049557-faf5b9b0-5e09-4564-8b0d-2157ca350786.png)
+
+Link video: https://youtu.be/eGheFErQ-lM
+
