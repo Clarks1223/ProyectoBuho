@@ -116,8 +116,8 @@ public class AdminNewVistaVentas extends ventanas{
                     ResultSet resqrRes = qrRes.executeQuery("select dc.cedCaj, dc.nomCaj, cf.numFac, df.codDet, tf.totalTot from datos_cajero dc, " +
                             "cabecera_factura cf, detalle_factura df, total_factura tf where dc.cedCaj = cf.cedCajFK and cf.numFac = df.numFacFK " +
                             "and df.codDet = tf.codDetFK");
-                    ResultSetMetaData rsMD = resqrRes.getMetaData();
-                    int col = rsMD.getColumnCount();
+                    ResultSetMetaData rs = resqrRes.getMetaData();
+                    int col = rs.getColumnCount();
                     model.addColumn("Cédula");
                     model.addColumn("Nombre");
                     model.addColumn("Num. Factura");
