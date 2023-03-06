@@ -109,7 +109,7 @@ public class AdminNewVistaVentas extends ventanas{
             else {
                 try {
                     DefaultTableModel model = new DefaultTableModel();
-                    table1.setModel(model);
+                    table1.setModel(model); 
                     con = conectarBD.estbConexion();
                     Statement qrRes = con.createStatement();
                     ResultSet resqrRes = qrRes.executeQuery("select dc.cedCaj, dc.nomCaj, cf.numFac, df.codDet, tf.totalTot from datos_cajero dc, " +
