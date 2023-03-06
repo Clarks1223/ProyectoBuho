@@ -40,7 +40,6 @@ public class AdminNewVistaVentas extends ventanas{
         ResultSet resultadoCajero = consultaCajeros.executeQuery("select cedCaj from datos_cajero");
         while (resultadoCajero.next()){
             JCBcajeros.addItem(resultadoCajero.getString(1));
-
         }
         con.close();
     }catch (HeadlessException | SQLException f){
