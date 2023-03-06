@@ -18,11 +18,6 @@ public class AdminNewVistaVentas extends ventanas{
     private JTable JTdatoscajero;
     private JLabel JLtitulo2;
     private JTable table1;
-    private JTextField cédulaTextField;
-    private JTextField nombreTextField;
-    private JTextField numFacturaTextField;
-    private JTextField numDetalleTextField;
-    private JTextField totalTextField;
     //objeto para el frame
     static JFrame busqueda = new JFrame();
     //objetos para la coneccion
@@ -76,7 +71,7 @@ public class AdminNewVistaVentas extends ventanas{
     JBfiltrar.addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-            if (JRBcajero.isEnabled()) {
+            if (JRBcajero.isSelected()) {
                 try {
                     DefaultTableModel modelo = new DefaultTableModel();
                     table1.setModel(modelo);
@@ -109,7 +104,7 @@ public class AdminNewVistaVentas extends ventanas{
             else {
                 try {
                     DefaultTableModel model = new DefaultTableModel();
-                    table1.setModel(model); 
+                    table1.setModel(model);
                     con = conectarBD.estbConexion();
                     Statement qrRes = con.createStatement();
                     ResultSet resqrRes = qrRes.executeQuery("select dc.cedCaj, dc.nomCaj, cf.numFac, df.codDet, tf.totalTot from datos_cajero dc, " +
