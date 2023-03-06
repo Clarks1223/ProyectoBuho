@@ -3,10 +3,10 @@ public class ConxBD {
     public Connection estbConexion() {
         Connection con = null;
         /*Datos para la coneccion */
-        String base="proyecto1";
+        String base="";
         String url= "jdbc:mysql://localhost:3306/"+base;
         String user="root";
-        String password="dariel17";
+        String password="";
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             con=DriverManager.getConnection(url,user,password);
